@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Financial/private data
+data/private/
+receipts/
+statements/
+uploads/
+
+# ML artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+.next/
+
+# Java
+target/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
